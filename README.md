@@ -1,1 +1,2 @@
-#wp-1
+Copy the whole folder in your themes section of wordpress
+
