@@ -33,7 +33,22 @@
 				),
 				get_the_title()
 			)
-		);
+		);?>
+		<?php
+  			// set the variable to the value entered for the "Weather" custom field
+  			$weather = get_post_meta($post->ID, 'Weather', true);
+  			// check if the weather variable has a value
+  			if($weather){ ?>
+    		<!-- if the weather variable has a value and echo out this sentence in addition to the value of the variable -->
+    		<h3>Weather when I wrote this: <? echo $weather; ?></h3>
+			<?php 
+  			// if the weather variable does not have a value then do the following
+  			}else{ 
+			// do nothing
+			}
+			
+		?>
+		<?php
 
 		wp_link_pages(
 			array(
@@ -42,6 +57,7 @@
 			)
 		);
 		?>
+		
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">

@@ -9,9 +9,10 @@ get_header();
         <p>Created by me.</p>
         <a href="http://localhost/wordpress/#Footer" class="hero-cta">Social Media Info</a>
     </div>
+    
 </section>
-<!-- Banner ends here -->
 
+<!-- Banner ends here -->
 
 <!-- Services section starts here -->
 <section id="Services">
@@ -23,33 +24,33 @@ get_header();
         <div class="services-wrapper">
             <div class="each-service">
                 <div class="service-icon"><i class="fa fa-desktop" aria-hidden="true"></i></div>
-                <h5 class="service-title">LOREM IPSUM</h5>
-                <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <h5 class="service-title">Tata Tigor EV priced from Rs 9.99 lakh</h5>
+                <p class="service-description">Prices for Tata’s highly anticipated first all-electric vehicle, the Tigor EV, are finally known. Priced from Rs 9.99 lakh (and going up to Rs 10.09 lakh), the Tata Tigor EV is only available to fleet operators and not for private buyers, yet.</p>
             </div>
             <div class="each-service">
                 <div class="service-icon"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
-                <h5 class="service-title">LOREM IPSUM</h5>
-                <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <h5 class="service-title">MG Hector launched at Rs 12.18 lakh</h5>
+                <p class="service-description">The MG Hector is available in a total of four diesel variants, two petrol-manual variants, two petrol-automatics and three petrol-hybrids.</p>
             </div>
             <div class="each-service">
                 <div class="service-icon"><i class="fa fa-paper-plane" aria-hidden="true"></i></div>
-                <h5 class="service-title">LOREM IPSUM</h5>
-                <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <h5 class="service-title">Kia Seltos launch on August 22, 2019</h5>
+                <p class="service-description">Three BS6-compliant engine options will be available on the Seltos in India – a 1.5-litre petrol , a 1.5-litre diesel and a 1.4-litre turbo-petrol .</p>
             </div>
             <div class="each-service">
                 <div class="service-icon"><i class="fa fa-university" aria-hidden="true"></i></div>
-                <h5 class="service-title">LOREM IPSUM</h5>
-                <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <h5 class="service-title">2019 BMW S1000RR launched at Rs 18.50 lakh</h5>
+                <p class="service-description">The engine on the supersport continues to be a 999cc, in-line four, but it has gone through a few changes. Its international-spec unit produces 207hp at 13,500rpm and 113Nm of torque at 11,000rpm – an increase of 8hp over the 2018 model, with torque remaining unchanged. </p>
             </div>
             <div class="each-service">
                 <div class="service-icon"><i class="fa fa-camera-retro" aria-hidden="true"></i></div>
-                <h5 class="service-title">LOREM IPSUM</h5>
-                <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <h5 class="service-title">Discounts of up to Rs 1.15 lakh on Honda cars</h5>
+                <p class="service-description"> Potential customers can benefit from discounts ranging from Rs 24,000 to Rs 1.15 lakh, depending on the model. The cars currently being offered with the benefits are the Brio, Amaze, Jazz, WR-V, City, Civic and the BR-V.</p>
             </div>
             <div class="each-service">
                 <div class="service-icon"><i class="fa fa-shopping-bag" aria-hidden="true"></i></div>
-                <h5 class="service-title">LOREM IPSUM</h5>
-                <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <h5 class="service-title">Revolt RV 400 bookings open for Rs 1,000</h5>
+                <p class="service-description">The Revolt RV 400 has a top speed limited to 85kph and an ARAI-certified range of 156km. The company will also have ‘mobile swap stations’ that can be tracked via a phone application, which will allow for swapping your drained battery for a fully-charged one. </p>
             </div>
         </div>
     </div>
@@ -85,108 +86,11 @@ get_header();
                 </div>
             </div>
            </a>
-            <a class="each-portfolio" data-fancybox="gallery" href="<?php echo get_template_directory_uri();?>/images/p-two.jpg">
-            <img src="<?php echo get_template_directory_uri();?>/images/p-two.jpg" alt="p-one">
-            <div class="hover-cont-wrap">
-                <div class="hover-cont-block">
-                   <h5 class="p-title">Title</h5>
-                   <div class="p-desc">
-                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                        <div class="icon-div"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
-                    </div>
-                </div>
-            </div>
-           </a>
-            <a class="each-portfolio" data-fancybox="gallery" href="<?php echo get_template_directory_uri();?>/images/p-three.jpg">
-            <img src="<?php echo get_template_directory_uri();?>/images/p-three.jpg" alt="p-one">
-            <div class="hover-cont-wrap">
-               <div class="hover-cont-block">
-                   <h5 class="p-title">Title</h5>
-                   <div class="p-desc">
-                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                        <div class="icon-div"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
-                    </div>
-                </div>
-            </div>
-           </a>
-            <a class="each-portfolio" data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/images/p-four.jpg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/p-four.jpg" alt="p-one">
-            <div class="hover-cont-wrap">
-                <div class="hover-cont-block">
-                   <h5 class="p-title">Title</h5>
-                   <div class="p-desc">
-                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                        <div class="icon-div"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
-                    </div>
-                </div>
-            </div>
-           </a>
-            <a class="each-portfolio" data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/images/p-five.jpg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/p-five.jpg" alt="p-one">
-            <div class="hover-cont-wrap">
-                <div class="hover-cont-block">
-                   <h5 class="p-title">Title</h5>
-                   <div class="p-desc">
-                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                        <div class="icon-div"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
-                    </div>
-                </div>
-            </div>
-           </a>
-            <a class="each-portfolio" data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/images/p-six.jpg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/p-six.jpg" alt="p-one">
-            <div class="hover-cont-wrap">
-                <div class="hover-cont-block">
-                   <h5 class="p-title">Title</h5>
-                   <div class="p-desc">
-                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                        <div class="icon-div"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
-                    </div>
-                </div>
-            </div>
-           </a>
-            <a class="each-portfolio" data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/images/p-one.jpg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/p-one.jpg" alt="p-one">
-            <div class="hover-cont-wrap">
-                <div class="hover-cont-block">
-                   <h5 class="p-title">Title</h5>
-                   <div class="p-desc">
-                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                        <div class="icon-div"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
-                    </div>
-                </div>
-            </div>
-           </a>
-            <a class="each-portfolio" data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/images/p-two.jpg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/p-two.jpg" alt="p-one">
-            <div class="hover-cont-wrap">
-                <div class="hover-cont-block">
-                   <h5 class="p-title">Title</h5>
-                   <div class="p-desc">
-                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                        <div class="icon-div"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
-                    </div>
-                </div>
-            </div>
-           </a>
-            <a class="each-portfolio" data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/images/p-three.jpg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/p-three.jpg" alt="p-one">
-            <div class="hover-cont-wrap">
-                <div class="hover-cont-block">
-                    <h5 class="p-title">Title</h5>
-                    <div class="p-desc">
-                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                        <div class="icon-div"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
-                    </div>
-                </div>
-            </div>
-           </a>
         </div>
     </div>
 </section>
 <!-- Portfolio section ends here -->
-<section id="Testimonial">
-  <div class="testimonial-wrap">
+
   <div class="container">
     <div class="block-heading">
       <h2>What Clients Say About Us</h2>
