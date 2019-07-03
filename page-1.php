@@ -4,9 +4,17 @@ get_header();
 ?>
 <!-- Banner starts here -->
 <section id="HeroBanner">
+    <div class="video-container">
+        <div class="color-overlay">
+            <video autoplay muted loop poster="JBi-Film-Cover-1200x675.jpg">
+                <source src="<?php echo get_template_directory_uri()?>/images/Code_flythough_loop_01.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
     <div class="hero-content">
-        <h1>Welcome to my website</h1>
-        <p>Created by me.</p>
+        <h1>Welcome to <br>my website</h1>
+        <p>Created by Ojas</p>
         <a href="http://localhost/wordpress/#Footer" class="hero-cta">Social Media Info</a>
     </div>
     
@@ -15,44 +23,33 @@ get_header();
 <!-- Banner ends here -->
 
 <!-- Services section starts here -->
+
 <section id="Services">
     <div class="container">
         <div class="block-heading">
-            <h2>Services</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </div>
+                <h2>Services</h2>
+                <p><em>Services we offer :</em></p>
+        </div>    
+          
         <div class="services-wrapper">
+        <?php 
+                $args = array('post_type' => 'book');
+                $query = new WP_Query($args);
+                $counter=-1;
+                while($query->have_posts()): $query -> the_post();$counter 
+                ?>
             <div class="each-service">
-                <div class="service-icon"><i class="fa fa-desktop" aria-hidden="true"></i></div>
-                <h5 class="service-title">Tata Tigor EV priced from Rs 9.99 lakh</h5>
-                <p class="service-description">Prices for Tata’s highly anticipated first all-electric vehicle, the Tigor EV, are finally known. Priced from Rs 9.99 lakh (and going up to Rs 10.09 lakh), the Tata Tigor EV is only available to fleet operators and not for private buyers, yet.</p>
+            
+                <div class="service-icon"><i class="fa fa-wordpress" aria-hidden="true"></i>
+                </div>
+                
+                    <h5 class="service-title"><?php the_title();?></h5>
+                    <a class="service-description" href="<?php echo the_permalink(); ?>">Read More</a>
+                    
+                  
+                    <br><br>
             </div>
-            <div class="each-service">
-                <div class="service-icon"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
-                <h5 class="service-title">MG Hector launched at Rs 12.18 lakh</h5>
-                <p class="service-description">The MG Hector is available in a total of four diesel variants, two petrol-manual variants, two petrol-automatics and three petrol-hybrids.</p>
-            </div>
-            <div class="each-service">
-                <div class="service-icon"><i class="fa fa-paper-plane" aria-hidden="true"></i></div>
-                <h5 class="service-title">Kia Seltos launch on August 22, 2019</h5>
-                <p class="service-description">Three BS6-compliant engine options will be available on the Seltos in India – a 1.5-litre petrol , a 1.5-litre diesel and a 1.4-litre turbo-petrol .</p>
-            </div>
-            <div class="each-service">
-                <div class="service-icon"><i class="fa fa-university" aria-hidden="true"></i></div>
-                <h5 class="service-title">2019 BMW S1000RR launched at Rs 18.50 lakh</h5>
-                <p class="service-description">The engine on the supersport continues to be a 999cc, in-line four, but it has gone through a few changes. Its international-spec unit produces 207hp at 13,500rpm and 113Nm of torque at 11,000rpm – an increase of 8hp over the 2018 model, with torque remaining unchanged. </p>
-            </div>
-            <div class="each-service">
-                <div class="service-icon"><i class="fa fa-camera-retro" aria-hidden="true"></i></div>
-                <h5 class="service-title">Discounts of up to Rs 1.15 lakh on Honda cars</h5>
-                <p class="service-description"> Potential customers can benefit from discounts ranging from Rs 24,000 to Rs 1.15 lakh, depending on the model. The cars currently being offered with the benefits are the Brio, Amaze, Jazz, WR-V, City, Civic and the BR-V.</p>
-            </div>
-            <div class="each-service">
-                <div class="service-icon"><i class="fa fa-shopping-bag" aria-hidden="true"></i></div>
-                <h5 class="service-title">Revolt RV 400 bookings open for Rs 1,000</h5>
-                <p class="service-description">The Revolt RV 400 has a top speed limited to 85kph and an ARAI-certified range of 156km. The company will also have ‘mobile swap stations’ that can be tracked via a phone application, which will allow for swapping your drained battery for a fully-charged one. </p>
-            </div>
-        </div>
+<?php endwhile; ?>
     </div>
 </section>
 <!-- Services section ends here -->
@@ -61,7 +58,7 @@ get_header();
     <div class="container">
         <div class="about-wrapper">
             <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p><em>"We don't just build websites, we build websites that SELLS".<br>― Christopher Dayagdag<br><br>"Writing the first 90 percent of a computer program takes 90 percent of the time. The remaining ten percent also takes 90 percent of the time and the final touches also take 90 percent of the time ". <br> – N.J. Rubenking</em></p>
         </div>
     </div>
 </section>

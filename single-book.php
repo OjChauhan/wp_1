@@ -17,6 +17,7 @@ get_header();
 ?>
 
 <?php
-the_content();
+while(have_posts())
+    the_post();
 get_footer();
 ?>

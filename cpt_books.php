@@ -3,12 +3,15 @@ get_header();
 
 ?>
 <?php
+    echo the_post_thumbnail();
 
     $args = array('post_type' => 'book');
     $query = new WP_Query($args);
     while($query->have_posts()): $query -> the_post();
     ?>
+    <div class="BookImages">
     <a href='<?php the_permalink(); ?>'><?php echo the_post_thumbnail();?></a>
+    </div>
     <div class='book'>
     <h2><?php the_title();?></h2>
     </div>
@@ -36,8 +39,9 @@ get_header();
 
 			</li>
     </ul>
-    <?php the_content(); ?>
-    <a href='<?php the_permalink(); ?>'>Read More</a>
+    <a href="<?php the_permalink(); ?>">Read More</a>
+    <br><br><br>
+    
 </div>
 <?php endwhile; ?>
 <?php
