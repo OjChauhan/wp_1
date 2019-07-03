@@ -35,8 +35,8 @@ get_header();
         <?php 
                 $args = array('post_type' => 'book');
                 $query = new WP_Query($args);
-                $counter=-1;
-                while($query->have_posts()): $query -> the_post();$counter 
+                
+                while($query->have_posts()): $query -> the_post();
                 ?>
             <div class="each-service">
             
@@ -56,6 +56,7 @@ get_header();
 <!-- About Us section starts here -->
 <section id="About">
     <div class="container">
+
         <div class="about-wrapper">
             <h2>About Us</h2>
             <p><em>"We don't just build websites, we build websites that SELLS".<br>― Christopher Dayagdag<br><br>"Writing the first 90 percent of a computer program takes 90 percent of the time. The remaining ten percent also takes 90 percent of the time and the final touches also take 90 percent of the time ". <br> – N.J. Rubenking</em></p>
@@ -87,7 +88,8 @@ get_header();
     </div>
 </section>
 <!-- Portfolio section ends here -->
-
+<section id="Testimonial">
+    <div class="testimonial-wrap">
   <div class="container">
     <div class="block-heading">
       <h2>What Clients Say About Us</h2>
